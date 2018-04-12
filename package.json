@@ -1,0 +1,15 @@
+{
+  "name": "fynd",
+  "version": "1.0.0",
+  "description": "Displays Highest Rated action movie",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "aniarya82",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.1.0",
+    "require": "^2.4.20"
+  }
+}
