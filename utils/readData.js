@@ -1,6 +1,5 @@
-var exports = module.exports = {}
 var fs = require('fs')
 
-exports.readData = function(filename) {
+module.exports = function(filename) {
 	return JSON.parse(fs.readFileSync(filename).toString())
 }

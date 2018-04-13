@@ -1,6 +1,4 @@
-var exports = module.exports = {}
-
-exports.dataCleanUp = function(data) {
+module.exports = function(data) {
 	var new_data = {}
 	data.forEach(function(elem) {
 		var genre = elem["genre"]
