@@ -9,7 +9,10 @@
   "author": "aniarya82",
   "license": "ISC",
   "devDependencies": {
-    "jasmine": "^3.1.0",
-    "require": "^2.4.20"
+    "require": "^2.4.20",
+    "tape": "^4.9.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
   }
 }
